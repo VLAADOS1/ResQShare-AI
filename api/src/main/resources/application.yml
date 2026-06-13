@@ -1,0 +1,25 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:h2:file:C:/Users/vlaados/Desktop/Helper/api/data/resq;DB_CLOSE_DELAY=-1;AUTO_SERVER=TRUE
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: ''
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+    properties:
+      hibernate:
+        format_sql: false
+  h2:
+    console:
+      enabled: true
+      path: /h2
+
+repl:
+  token: ${REPLICATE_API_TOKEN:}
+  model: openai/gpt-5.4
+  enabled: ${REPL_ENABLED:true}
