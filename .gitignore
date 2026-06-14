@@ -29,6 +29,7 @@ Thumbs.db
 ui.xml
 u.xml
 !**/src/main/res/**
+!docs/**
 
 *.log
 *.err
