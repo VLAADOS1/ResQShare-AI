@@ -18,6 +18,9 @@ Distribution, listings and impact estimates are handled by AI.
   </tr>
 </table>
 
+## Dowland App
+https://github.com/VLAADOS1/ResQShare-AI/releases/tag/App
+
 ## Demo
 
 Video on YouTube: https://youtu.be/9-mbBZgp2Lw
